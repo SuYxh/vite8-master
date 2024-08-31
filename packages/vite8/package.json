@@ -1,0 +1,23 @@
+{
+  "name": "vite8",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Your Name <you@example.com>",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "@vite8/config": "^0.0.0",
+    "@vite8/create": "^0.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
+  },
+  "bin":{
+    "vite8":"index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

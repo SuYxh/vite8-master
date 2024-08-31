@@ -1,0 +1,17 @@
+{
+  "name": "cli-plugin-router",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "gitHead": "e435166f35b40bc6512ae8847b7fbac65c11e63a"
+}
