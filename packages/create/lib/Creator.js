@@ -27,10 +27,12 @@ class Creator {
         this.featurePrompt = defaultFeaturePrompt;
         this.injectPrompts = [];//由promptModules插入的新的选项框
         this.promptCompleteCbs = [];//选择结束的回调数组
+
         this.plugins= [];//这里本项目 启用的插件
         this.fileMiddlewares = [];//文件处理的中间件数组
         this.imports = {};//此处存放文件里额外添加的import语句
         this.files = {};//key是文件路径 值 文件内容 插件在执行过程中写入的都是这个对象files.最后再统一写入硬盘
+        
         const promptModuleAPI = new PromptModuleAPI(this);
         promptModules.forEach(module=>module(promptModuleAPI));
     }
